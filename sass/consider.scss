@@ -1,0 +1,29 @@
+.consider {
+	position: relative;
+	padding-top: 50px;
+}
+.consider .col-12 {
+	text-align: center;
+}
+.consider h1 {
+	margin-bottom: 30px;
+}
+.consider img {
+	max-width: 100px;
+	height: 100px;
+}
+.consider h5 {
+	margin-top: 0.5rem;
+}
+
+@media (max-width: 991px) {
+		.consider h1 {
+		  font-size: 25px;
+	 }
+}
+
+@media (max-width: 540px){
+	.consider h1 {
+		font-size: 20px;
+	}
+}

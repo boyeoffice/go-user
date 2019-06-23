@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="198" height="182" viewBox="0 0 198 182">
+    <defs>
+        <rect id="a" width="82.564" height="82.039" x="14.29" y="55.184" rx="4"/>
+        <mask id="b" width="82.564" height="82.039" x="0" y="0" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <path id="d" d="M64.979 4.004A4.003 4.003 0 0 1 68.98 0h90.943c2.21 0 4.001 1.79 4.001 4.004v104.502a4.003 4.003 0 0 1-4.001 4.004H68.98a4.001 4.001 0 0 1-4.001-4.004V4.004z"/>
+        <filter id="c" width="218.2%" height="204%" x="-59.1%" y="-41.3%" filterUnits="objectBoundingBox">
+            <feOffset dy="12" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="17.5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.925490196 0 0 0 0 0.941176471 0 0 0 0 0.945098039 0 0 0 1 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(0 23)">
+        <rect width="109.057" height="108.359" x=".25" y="41.701" fill="#FFF" stroke="#5F5A76" stroke-width=".5" rx="4"/>
+        <use stroke="#393649" stroke-dasharray="4" stroke-width="1.4" mask="url(#b)" xlink:href="#a"/>
+        <path fill="#579FCA" fill-rule="nonzero" d="M67.158 82.651h-23.12c-1.277 0-2.313.947-2.313 2.116v22.337c0 1.165 1.036 2.114 2.312 2.114h23.121c1.276 0 2.312-.949 2.312-2.114V84.767c0-1.169-1.036-2.116-2.312-2.116zm-21.737 1.592h20.351c1.127 0 2.038.83 2.038 1.86v3.647H43.385v-3.646c0-1.03.914-1.861 2.036-1.861zm-2.036 21.524V91.81h15.083v15.818H45.421c-1.122 0-2.036-.834-2.036-1.86zm22.387 1.861H60.77V91.81h7.04v13.957c0 1.027-.91 1.861-2.037 1.861z"/>
+        <use fill="#000" filter="url(#c)" xlink:href="#d"/>
+        <path fill="#FFF" stroke="#5F5A76" stroke-linejoin="square" stroke-width=".5" d="M65.229 4.004v104.502a3.751 3.751 0 0 0 3.751 3.754h90.943a3.753 3.753 0 0 0 3.751-3.754V4.004A3.751 3.751 0 0 0 159.923.25H68.98a3.753 3.753 0 0 0-3.751 3.754z"/>
+        <path fill="#5F5A76" fill-rule="nonzero" d="M149.495 102.43a.396.396 0 0 0-.085.45l9.08 19.736a.399.399 0 0 0 .755-.1l1.487-8.852 8.385-1.012a.399.399 0 0 0 .13-.751l-19.297-9.543a.4.4 0 0 0-.455.071z"/>
+        <ellipse cx="84.177" cy="26.647" fill="#1F9AD0" rx="4.43" ry="4.441"/>
+        <ellipse cx="84.177" cy="45.892" fill="#1F9AD0" rx="4.43" ry="4.441"/>
+        <ellipse cx="84.177" cy="66.618" fill="#1F9AD0" rx="4.43" ry="4.441"/>
+        <ellipse cx="84.177" cy="85.863" fill="#1F9AD0" rx="4.43" ry="4.441"/>
+        <path stroke="#579FCA" stroke-linecap="square" d="M99.684 27.387h50.21M99.684 46.632h50.21M99.684 67.358h50.21M99.684 86.603h50.21"/>
+    </g>
+</svg>
