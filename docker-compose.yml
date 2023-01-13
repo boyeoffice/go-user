@@ -1,0 +1,15 @@
+version: '3'
+services:
+  next:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    container_name: go-user
+    environment:
+      NODE_ENV: development
+    volumes:
+       - ./:/usr/app
+    user: node
+    command: npm start
