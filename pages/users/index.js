@@ -14,9 +14,9 @@ const Users = ({allUsers}) => {
     <link rel="icon" href="/favicon.ico" />
     </Head>
     <Grid container spacing={5} justify="space-evenly">
-      {allUsers.users.map(({id, firstName, email, image}) => (
+      {allUsers.users.map(({id, firstName, lastName, email, image}) => (
         <Grid item xs={6} lg={2} md={4} key={id}>
-          <UserCard {...{name: firstName, id, email, image}}/>
+          <UserCard {...{name: `${firstName,' ',lastName}`, id, email, image}}/>
         </Grid>
       ))}
     </Grid>
